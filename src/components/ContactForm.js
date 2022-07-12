@@ -15,35 +15,29 @@ function ContactForm() {
         <div className="form-check form-check-inline">
           <input
             className="form-check-input"
-            type="radio"
-            id="inlineCheckbox1"
+            type="checkbox"
+            name="PSN cart[]"
             value="Carte PlayStation Network 10 EUR"
           />
-          <label className="form-check-label" for="inlineCheckbox1">
-            Carte PlayStation Network 10 EUR
-          </label>
+          Carte PlayStation Network 10 EUR <br />
         </div>
         <div className="form-check form-check-inline">
           <input
             className="form-check-input"
-            type="radio"
-            id="inlineCheckbox2"
+            type="checkbox"
+            name="PSN cart[]"
             value="Carte PlayStation Network 15 EUR"
           />
-          <label className="form-check-label" for="inlineCheckbox2">
-            Carte PlayStation Network 15 EUR
-          </label>
+          Carte PlayStation Network 15 EUR <br />
         </div>
         <div className="form-check form-check-inline">
           <input
             className="form-check-input"
-            type="radio"
-            id="inlineCheckbox3"
+            type="checkbox"
+            name="PSN cart[]"
             value="Carte PlayStation Network 20 EUR"
           />
-          <label className="form-check-label" for="inlineCheckbox3">
-            Carte PlayStation Network 20 EUR
-          </label>
+          Carte PlayStation Network 20 EUR <br />
         </div>
         <input type="hidden" name="form-name" value="contact" />
         <label for="name">Nom: </label>
