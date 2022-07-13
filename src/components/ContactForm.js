@@ -107,10 +107,12 @@ function ContactForm() {
                   <span className="text__color">
                     Envoyez nous votre commande et notre coursier vous
                     contactera dans les plus brefs délais, le paiement se fera à
-                    la livraison.
+                    la livraison. Le prix en dinard est calculé selon le taux de
+                    change plus 1000 Dinar de commission.
                   </span>
                 </div>
               </div>
+              <p>* Prix = prix x taux de change + 1000 Dinar</p>
             </Col>
           </Row>
         </div>
