@@ -2,6 +2,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import './ContactForm.css';
 
 function ContactForm() {
   return (
@@ -61,7 +62,7 @@ function ContactForm() {
               <label className="btn btn-primary m-3" for="btn-check-4">
                 Carte PSN 25 EUR
               </label>
-              <Row>
+              <Row className="mt-3">
                 <input type="hidden" name="form-name" value="contact" />
                 <Col>
                   <input
@@ -99,6 +100,19 @@ function ContactForm() {
               </Row>
             </form>
           </Col>
+          <Row>
+            <Col>
+              <div className="card mt-4">
+                <div className="card-body text__color">
+                  <span className="text__color">
+                    Envoyez nous votre commande et notre coursier vous
+                    contactera dans les plus brefs délais, le paiement se fera à
+                    la livraison.
+                  </span>
+                </div>
+              </div>
+            </Col>
+          </Row>
         </div>
       </Row>
     </Container>
