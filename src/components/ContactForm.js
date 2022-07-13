@@ -61,44 +61,44 @@ function ContactForm() {
               <label className="btn btn-primary m-3" for="btn-check-4">
                 Carte PSN 25 EUR
               </label>
+              <Row>
+                <input type="hidden" name="form-name" value="contact" />
+                <Col>
+                  <input
+                    type="text"
+                    name="name"
+                    className="form-control"
+                    placeholder="Nom"
+                  />
+                </Col>
+                <Col>
+                  <input
+                    type="text"
+                    name="phone"
+                    className="form-control"
+                    placeholder="Téléphone"
+                  />
+                </Col>
+              </Row>
+              <Row className="mt-3">
+                <Col>
+                  <textarea
+                    type="textarea"
+                    name="message"
+                    className="form-control"
+                    placeholder="Une question ?"
+                  />
+                </Col>
+              </Row>
+              <Row className="mt-3">
+                <Col className="d-grid gap-2">
+                  <button type="submit" className="btn btn-color">
+                    Envoyer
+                  </button>
+                </Col>
+              </Row>
             </form>
           </Col>
-          <Row>
-            <input type="hidden" name="form-name" value="contact" />
-            <Col>
-              <input
-                type="text"
-                name="name"
-                className="form-control"
-                placeholder="Nom"
-              />
-            </Col>
-            <Col>
-              <input
-                type="text"
-                name="phone"
-                className="form-control"
-                placeholder="Téléphone"
-              />
-            </Col>
-          </Row>
-          <Row className="mt-3">
-            <Col>
-              <textarea
-                type="textarea"
-                name="message"
-                className="form-control"
-                placeholder="Une question ?"
-              />
-            </Col>
-          </Row>
-          <Row className="mt-3">
-            <Col className="d-grid gap-2">
-              <button type="submit" className="btn btn-color">
-                Envoyer
-              </button>
-            </Col>
-          </Row>
         </div>
       </Row>
     </Container>
