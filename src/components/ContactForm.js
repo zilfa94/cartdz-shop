@@ -113,6 +113,7 @@ function ContactForm() {
                 </div>
               </div>
               <p>* Prix = prix x taux de change + 1000 Dinar</p>
+              <p>/pm.me/100839852711332</p>
             </Col>
           </Row>
         </div>
