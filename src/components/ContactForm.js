@@ -113,7 +113,11 @@ function ContactForm() {
                 </div>
               </div>
               <p>* Prix = prix x taux de change + 1000 Dinar</p>
-              <p>/pm.me/100839852711332</p>
+              <Link to="https://m.me/100839852711332/">
+                <button type="button" className="btn btn-info">
+                  Button
+                </button>
+              </Link>
             </Col>
           </Row>
         </div>
