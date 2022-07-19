@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -114,11 +113,10 @@ function ContactForm() {
                 </div>
               </div>
               <p>* Prix = prix x taux de change + 1000 Dinar</p>
-              <Link to="https://m.me/100839852711332/">
-                <button type="button" className="btn btn-info">
-                  Button
-                </button>
-              </Link>
+
+              <div id="fb-root"></div>
+
+              <div id="fb-customer-chat" class="fb-customerchat"></div>
             </Col>
           </Row>
         </div>
